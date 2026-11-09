@@ -13,6 +13,9 @@ arch:
   - amd64
 services:
   - mqtt:want
+devices:
+  - /dev/ttyAMA0
+  - /dev/ttyAMA2
 options:
   device: null
   log_level: debug
